@@ -84,6 +84,12 @@ main {
     border-left: none;
     border-right: none;
 }
+.outdoor_header h2 {
+    font-size: 36px;
+}
+.outdoor_header p {
+    font-size: 24px;
+}
 .outdoor_container {
     display: flex;
     justify-content: space-around;
@@ -105,11 +111,6 @@ main {
     
     
 }
-.tule {
-    align-self: center;
-    
-}
-
 .outdoor_img img {
     max-height: 300px;
     max-width: 300px;
@@ -117,6 +118,18 @@ main {
     margin-top: 1em;
     border: 1px solid gray;
 }
+.outdoor_img p {
+    max-width: 300px;
+}
+.outdoor_img h4 {
+    font-size: 24px;
+}
+.tule {
+    align-self: center;
+    
+}
+
+
 .outdoor_img p {
     max-width: 300px;
 }
@@ -146,10 +159,12 @@ main {
 
 
 .indoor_header {
-    margin-bottom: 1em;
-    margin-top: 1em;
-    border-bottom: 2px groove silver;
+    margin-bottom: 2em;
     text-align: center;
+    color: white;
+    border: 2px groove silver;
+    border-left: none;
+    border-right: none;
 }
 .grid_container {
     display: grid;
