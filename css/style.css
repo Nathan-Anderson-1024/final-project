@@ -21,17 +21,17 @@ nav {
 }
 nav .child_right a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 26px;
     margin: 1em;
     color: white;
 }
 #logo_img {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 75px;
+    max-width: 75px;
     border-radius: 50%;
 }
 .logo_container {
-    max-height: 50px;
+    max-height: 75px;
 }
 
 /* MAIN */
@@ -120,6 +120,7 @@ main {
 }
 .outdoor_img p {
     max-width: 300px;
+    font-size: 20px;
 }
 .outdoor_img h4 {
     font-size: 24px;
