@@ -75,7 +75,10 @@ main {
     margin-bottom: 2em;
     font-size: 24px;
 }
-/* Favorite things section */
+
+/* Outdoor section */
+
+
 .outdoor_header {
     margin-bottom: 2em;
     text-align: center;
@@ -93,18 +96,18 @@ main {
 .outdoor_container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     font-weight: bolder;
     color: white;
-    min-height: 850px;
+    min-height: 1250px;
     border-bottom: 2px groove silver;
     
 }
 
 .outdoor_img {
-   /* border: 1px solid yellow; */
+    /*border: 1px solid yellow; */ 
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -112,15 +115,17 @@ main {
     
 }
 .outdoor_img img {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 500px;
+    max-width: 500px;
     margin-bottom: 1em;
     margin-top: 1em;
     border: 1px solid gray;
+    
 }
 .outdoor_img p {
-    max-width: 300px;
-    font-size: 20px;
+    max-width: 450px;
+    font-size: 22px;
+    text-align: center;
 }
 .outdoor_img h4 {
     font-size: 24px;
@@ -130,10 +135,6 @@ main {
     
 }
 
-
-.outdoor_img p {
-    max-width: 300px;
-}
 .mill_trail:hover {
     margin-top: 20px;
     transition: ease-in 0.5s;
@@ -200,8 +201,8 @@ main {
 }
 
 iframe {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 450px;
+    max-height: 450px;
     margin-top: 1em;
     border: 1px solid gray;
 }
