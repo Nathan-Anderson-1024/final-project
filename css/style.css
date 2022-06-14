@@ -1,7 +1,7 @@
 * {
     margin: 0;
     color: white;
-    transition: ease-in 0.25s;
+    /*transition: ease-in 0.25s;*/
 }
 body {
     background-color: black;
@@ -21,17 +21,17 @@ nav {
 }
 nav .child_right a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 26px;
     margin: 1em;
     color: white;
 }
 #logo_img {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 75px;
+    max-width: 75px;
     border-radius: 50%;
 }
 .logo_container {
-    max-height: 50px;
+    max-height: 75px;
 }
 
 /* MAIN */
@@ -49,7 +49,7 @@ main {
     
 }
 .opener_container img {
-    max-width: 80%;
+    max-width: 100%;
     max-height: auto;
     /*width: 100%;
     height: 100%; */
@@ -75,7 +75,10 @@ main {
     margin-bottom: 2em;
     font-size: 24px;
 }
-/* Favorite things section */
+
+/* Outdoor section */
+
+
 .outdoor_header {
     margin-bottom: 2em;
     text-align: center;
@@ -84,42 +87,53 @@ main {
     border-left: none;
     border-right: none;
 }
+.outdoor_header h2 {
+    font-size: 36px;
+}
+.outdoor_header p {
+    font-size: 24px;
+}
 .outdoor_container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     font-weight: bolder;
     color: white;
-    min-height: 850px;
+    min-height: 1250px;
     border-bottom: 2px groove silver;
     
 }
 
 .outdoor_img {
-   /* border: 1px solid yellow; */
+    border: 1px solid yellow; 
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     
     
 }
-.tule {
-    align-self: center;
-    
-}
-
 .outdoor_img img {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 500px;
+    max-width: 500px;
     margin-bottom: 1em;
     margin-top: 1em;
     border: 1px solid gray;
+    
 }
 .outdoor_img p {
-    max-width: 300px;
+    max-width: 500px;
+    font-size: 22px;
+    text-align: center;
 }
+.outdoor_img h4 {
+    font-size: 24px;
+}
+.tule {
+    align-self: center;
+}
+
 .mill_trail:hover {
     margin-top: 20px;
     transition: ease-in 0.5s;
@@ -146,10 +160,12 @@ main {
 
 
 .indoor_header {
-    margin-bottom: 1em;
-    margin-top: 1em;
-    border-bottom: 2px groove silver;
+    margin-bottom: 2em;
     text-align: center;
+    color: white;
+    border: 2px groove silver;
+    border-left: none;
+    border-right: none;
 }
 .grid_container {
     display: grid;
@@ -184,8 +200,8 @@ main {
 }
 
 iframe {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
     margin-top: 1em;
     border: 1px solid gray;
 }
