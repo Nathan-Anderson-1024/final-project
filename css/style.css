@@ -200,8 +200,8 @@ main {
 }
 
 iframe {
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 500px;
+    max-height: 500px;
     margin-top: 1em;
     border: 1px solid gray;
 }
