@@ -142,13 +142,13 @@ main {
 }
 
 
-
+/*Indoor fun section */
 
 
 .indoor_header {
     margin-bottom: 1em;
     margin-top: 1em;
-    border: 1px solid magenta;
+    border-bottom: 2px groove silver;
     text-align: center;
 }
 .grid_container {
@@ -159,13 +159,14 @@ main {
     align-content: center;
     width: 100%;
     
+    
 }
 .child {
     max-height: 450px;
     max-width: 450px;
     height: 100%;
     width: 100%;
-    
+    border: 1px solid green;
     text-align: center;
 }
 .child:hover {
@@ -179,10 +180,9 @@ main {
     max-width: 300px;
     margin-bottom: 1em;
     margin-top: 1em;
+    
 }
-.child_left img {
-    max-height: 200px;
-}
+
 iframe {
     max-width: 300px;
     max-height: 300px;
