@@ -1,7 +1,7 @@
 * {
     margin: 0;
     color: white;
-    /*transition: ease-in 0.25s;*/
+    font-family: 'Gentium Plus', 'Ubuntu', 'Times New Roman';
 }
 body {
     background-color: black;
@@ -73,7 +73,7 @@ main {
     justify-content: center;
     margin-top: 2em;
     margin-bottom: 2em;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 /* Outdoor section */
@@ -105,6 +105,7 @@ main {
     position: relative;
     width: 500px;
 }
+
 .img_container h2 {
     text-align: center;
 }
