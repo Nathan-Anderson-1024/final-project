@@ -165,6 +165,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+    
 } 
 input[type=text], select, textarea {
     width: 100%;
@@ -180,5 +182,6 @@ input[type=text], select, textarea {
 input[type=submit] {
     background-color: silver;
     padding: 12px 12px;
-    
+    color: #fff;
+    cursor: pointer;
 }
