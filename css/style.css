@@ -170,8 +170,8 @@ main {
     align-items: center;
     flex-direction: column;
     border: 1px solid red;
-    
-} 
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 10px;
@@ -182,12 +182,22 @@ input[type=text], select, textarea {
     margin-bottom: 6px;
     resize: vertical;
     color: black;
+    
+} 
+input[class=form-text], label {
+    font-size: 20px;
+    font-weight: bold;
 }
 input[type=submit] {
     background-color: silver;
     padding: 12px 12px;
     color: #fff;
     cursor: pointer;
+    border-radius: 4px;
+}
+input[type=submit]:hover {
+    background-color: green;
+    transition: ease-in-out 250ms;
 }
 
 /* About Page styling */
