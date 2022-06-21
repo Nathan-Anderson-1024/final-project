@@ -157,8 +157,26 @@ main {
     text-align: center;
     font-size: 2em;
 }
+
+/* Form styling */
 .form_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+} 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px groove silver;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: silver;
+    padding: 12px 12px;
+    
 }
