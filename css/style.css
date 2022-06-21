@@ -156,6 +156,7 @@ main {
     margin-top: 2em;
     text-align: center;
     font-size: 2em;
+    margin-bottom: 2em;
 }
 
 /* Form styling */
@@ -174,6 +175,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 6px;
     resize: vertical;
+    color: black;
 }
 input[type=submit] {
     background-color: silver;
