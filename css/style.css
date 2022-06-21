@@ -2,6 +2,7 @@
     margin: 0;
     color: white;
     font-family: 'Gentium Plus', 'Ubuntu', 'Times New Roman';
+    
 }
 body {
     background-color: black;
@@ -147,4 +148,17 @@ main {
 .map {
     width: 400px;
     margin-top: 10px;
+}
+
+/* Contact Us Page */
+/* Header */
+.header {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
