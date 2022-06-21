@@ -28,6 +28,11 @@ nav .child_right a {
     margin: 1em;
     color: white;
 }
+nav .child_right a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+
+}
 #logo_img {
     max-height: 75px;
     max-width: 75px;
