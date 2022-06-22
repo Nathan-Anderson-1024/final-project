@@ -56,12 +56,11 @@ main {
     flex-direction: row;
     position: relative;
     
+    
 }
 .opener_container img {
     max-width: 100%;
     max-height: auto;
-    /*width: 100%;
-    height: 100%; */
 }
 .opener_child {
     position: absolute;
@@ -216,4 +215,15 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Footer*/
+.line {
+    content: '';
+    height: 5px;
+    width: 40%;
+    background-color: silver;
+    display: block;
+    margin: auto;
+    margin-top: 1em;;
 }
