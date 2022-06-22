@@ -27,11 +27,12 @@ nav .child_right a {
     font-size: 26px;
     margin: 1em;
     color: white;
+    position: relative;
+    text-transform: uppercase;
 }
 nav .child_right a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-
+    color: gray;
+    transition: all ease-in-out 250ms;
 }
 #logo_img {
     max-height: 75px;
