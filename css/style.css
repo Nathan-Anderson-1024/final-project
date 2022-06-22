@@ -7,7 +7,6 @@
 
 body {
     background-color: black;
-
 }
 /* NAV BAR */
 nav {
@@ -20,7 +19,6 @@ nav {
     border-bottom: 1px solid whitesmoke;
     position: fixed;
     z-index: 1;
-    
 }
 nav .child_right a {
     text-decoration: none;
@@ -74,7 +72,6 @@ main {
     color: white;
     font-size: 1vw;
 }
-
 .about {
     display: flex;
     color: white;
@@ -83,10 +80,7 @@ main {
     margin-bottom: 2em;
     font-size: 26px;
 }
-
 /* Outdoor section */
-
-
 .outdoor_header {
     margin-bottom: 2em;
     text-align: center;
@@ -108,13 +102,11 @@ main {
     gap: 10px;
     flex-wrap: wrap;
 }
-
 .img_container {
     position: relative;
     max-width: 500px;
     
 }
-
 .img_container h2 {
     text-align: center;
 }
@@ -158,7 +150,6 @@ main {
     margin-top: 10px;
     text-align: center;
 }
-
 /* Contact Us Page */
 /* Header */
 .header {
