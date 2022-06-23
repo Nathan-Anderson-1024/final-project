@@ -85,7 +85,7 @@ main {
     margin-bottom: 2em;
     text-align: center;
     color: white;
-    border: 2px groove silver;
+    /* border: 2px groove silver; */
     border-left: none;
     border-right: none;
 }
