@@ -213,9 +213,11 @@ input[type=submit]:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
     text-align: center;
+    border: 1px solid green;
 }
 .name {
     margin-bottom: 1em;
@@ -234,6 +236,15 @@ input[type=submit]:hover {
 .about_img_text {
     max-width: 500px;
 }
+.favorites {
+    border: 1px solid tan;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
 /* Footer*/
 .line {
     content: '';
