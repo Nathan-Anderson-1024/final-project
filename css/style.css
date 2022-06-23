@@ -161,6 +161,9 @@ main {
     margin-top: 3em;
     opacity: 0.8;
 }
+.line_index {
+    margin-bottom: 2em;
+}
 .line_contact {
     content: '';
     height: 5px;
