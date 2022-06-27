@@ -205,3 +205,20 @@ main {
 .copyright {
     font-size: .75em;
 }
+.line_cont {
+    content: '';
+    height: 5px;
+    width: 30%;
+    background-color: silver;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    opacity: 0.8;
+}
+@media screen and (min-width: 1011px) {
+    .line_cont {
+        display: none;
+    }
+    
+}
